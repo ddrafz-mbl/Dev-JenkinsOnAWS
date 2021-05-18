@@ -1,7 +1,5 @@
 provider "aws" {
     region = var.region
-    access_key = "xxxxxxxxxxxxxxxxxxxx"
-    secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 
 resource "aws_security_group" "ec2_public_security_group3" {
